@@ -12,7 +12,7 @@ public class AppTest  {
     @Test
     public void testResult() throws IOException
     {
-        assertEquals(new MainClass().addition(10,20),80);
+        assertEquals(new MainClass().addition(10,20),30);
         System.out.print("Test done");
     }
 
